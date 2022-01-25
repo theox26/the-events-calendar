@@ -116,7 +116,12 @@ class Template_Bootstrap {
 	 * @return bool Whether the current request is for the single event template or not.
 	 */
 	public function is_single_event() {
+		if( ! did_action( 'parse_query' ) ) {
+			return false;
+		}
+
 		$conditions = [
+			tribe_context()->get( 'tec_post_type' ),
 			is_singular( TEC::POSTTYPE ),
 			'single-event' === tribe_context()->get( 'view' ),
 		];
@@ -206,7 +211,7 @@ class Template_Bootstrap {
 		}
 
 		$should_display_single = (
-			'single-event' === $view_slug
+			$this->is_single_event()
 			&& ! tribe_is_showing_all()
 			&& ! V1_Templates::is_embed()
 		);
@@ -255,7 +260,19 @@ class Template_Bootstrap {
 			$html = View::make( $view_slug, $context )->get_html();
 		}
 
-		return $html;
+
+		/**
+		 * Filters the HTML for the view before we do any other logic around that.
+		 *
+		 * @since 5.0.0
+		 *
+		 * @param string          $html      The html to be displayed.
+		 * @param \Tribe__Context $context   Tribe context used to setup the view.
+		 * @param string          $view_slug The slug of the View that we've built,
+		 *                                   based on the context but possibly altered in the build process.
+		 * @param \WP_Query       $query     The current WP Query object.
+		 */
+		return apply_filters( 'tribe_events_views_v2_bootstrap_html', $html, $context, $view_slug, $query );
 	}
 
 	/**
@@ -333,7 +350,25 @@ class Template_Bootstrap {
 	 * @return string Path to the File that initializes the template
 	 */
 	public function filter_template_include( $template ) {
-		$query = tribe_get_global_query_object();
+		$query   = tribe_get_global_query_object();
+		$context = tribe_context();
+
+		/**
+		 * Allows filtering the loading of our proprietary templates.
+		 *
+		 * @since 5.2.1
+		 *
+		 * @param boolean        $load     Whether we should load the theme templates instead of the Tribe templates. Default false.
+		 * @param string         $template The template located by WordPress.
+		 * @param Tribe__Context $context  The singleton, immutable, global object instance.
+		 * @param WP_Query       $query    The global $wp_query, the $wp_the_query if $wp_query empty, null otherwise. From tribe_get_global_query_object() above.
+		 */
+		$load_template = apply_filters( 'tribe_events_views_v2_use_wp_template_hierarchy', false, $template, $context, $query );
+
+		// Let others decide if they want to load our templates or not.
+		if ( (bool) $load_template ) {
+			return $template;
+		}
 
 		// Global 404 needs to be respected.
 		if ( $query->is_404() ) {
@@ -345,7 +380,6 @@ class Template_Bootstrap {
 			return $template;
 		}
 
-		$context   = tribe_context();
 		$view_slug = $context->get( 'view' );
 		$is_embed  = V1_Templates::is_embed() || 'embed' === $view_slug;
 
@@ -373,8 +407,8 @@ class Template_Bootstrap {
 
 		$classes[] = 'page-template-' . sanitize_title( $template );
 
-		if ( ! is_tax() ) {
-			$key = array_search( 'archive', $classes );
+		if ( ! get_queried_object() instanceof \WP_Term ) {
+			$key = array_search( 'archive', $classes, true );
 
 			if ( false !== $key ) {
 				unset( $classes[ $key ] );
