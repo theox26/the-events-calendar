@@ -1,38 +1,37 @@
 === The Events Calendar ===
 
-Contributors: ModernTribe, borkweb, barry.hughes, bordoni, brianjessee, aguseo, Camwyn, cliffpaulick, courane01, faction23, GeoffBel, geoffgraham, jbrinley, jentheo, leahkoerper, lucatume, neillmcshea, nicosantos, patriciahillebrandt, peterchester, paulskim, reid.peifer, roblagatta, ryancurban, shane.pearlman, vicskf, zbtirrell, juanfra
-Tags: events, calendar, event, venue, organizer, dates, date, google maps, conference, workshop, concert, meeting, seminar, summit, class, modern tribe, tribe, widget
-Donate link: https://m.tri.be/29
-Requires at least: 4.9.14
-Stable tag: 5.1.6
-Tested up to: 5.5
-Requires PHP: 5.6
+Contributors: theeventscalendar, borkweb, bordoni, brianjessee, aguseo, camwynsp, GeoffBel, geoffgraham, jentheo, leahkoerper, lucatume, neillmcshea, patriciahillebrandt, paulskim, vicskf, zbtirrell, juanfra
+Tags: events, calendar, event, schedule, organizer
+Donate link: https://evnt.is/29
+Requires at least: 5.6
+Stable tag: 5.12.4
+Tested up to: 5.8.3
+Requires PHP: 7.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Events Calendar is a carefully crafted, extensible plugin that lets you easily manage and share events. Beautiful. Solid. Awesome.
+The Events Calendar is the number one calendar plugin for WordPress. Easily create and manage events (including virtual events!) on your WordPress site with The Events Calendar free plugin.
 
 == Description ==
-
-Easily create and manage an events calendar on your website with [The Events Calendar](https://m.tri.be/mj). Whether your events are in-person or virtual events, this plugin boasts professional features backed by our world-class team of developers and designers.
+Easily create and manage an events calendar on your WordPress site with [The Events Calendar](https://evnt.is/mj) free plugin. Whether your events are in-person or virtual events, this WordPress calendar plugin boasts professional features backed by our world-class team of developers and designers.
 
 https://vimeo.com/425323974
 
-Packed with loads of features, The Events Calendar by Modern Tribe is ready to go out of the box. It’s also extensible, easy to use, and completely customizable.
+Packed with loads of features, The Events Calendar is ready to go out of the box. It’s also extensible, easy to use, and completely customizable.
 
-= 📅 The #1 Calendar for WordPress  =
+= 📅 The #1 Calendar for WordPress =
 
-See the calendar in action on our [demo experience](https://m.tri.be/1ajs). Just getting started? Read through the [New User Primer](https://m.tri.be/2d) to get set up.
+See the calendar in action on our [demo experience](https://evnt.is/1ajs). Just getting started? Read through the [New User Primer](https://evnt.is/2d) to get set up.
 
 Looking for additional features like recurring events, ticket sales, user-submitted events, automatic imports, and more?
 
-<strong>Check out [Events Calendar Pro](https://m.tri.be/mj), [Event Aggregator](https://m.tri.be/197u), and [more add-ons](https://m.tri.be/2a)</strong>
+<strong>Check out [Events Calendar Pro](https://evnt.is/mj), [Event Aggregator](https://evnt.is/197u), and [more add-ons](https://evnt.is/2a).</strong>
 
 = 🔌🎨 Plug and Play or Customize =
 
 The Events Calendar is built to work out of the box. Simply install the plugin, configure your settings, and start creating events in minutes.
 
-Want to add your personal touch? Use The Events Calendar as the foundation for customization. Personalize to your heart's content with the help of a skeleton stylesheet, partial template overrides, template tags, hooks and filters, [careful documentation](https://m.tri.be/eu), and a [library of free extensions](https://m.tri.be/1a0r).
+Want to add your personal touch? Use The Events Calendar as the foundation for customization. Personalize to your heart's content with the help of a skeleton stylesheet, partial template overrides, template tags, hooks and filters, [careful documentation](https://evnt.is/eu), and a [library of free extensions](https://evnt.is/1a0r).
 
 Whether your vision is big or small, you're in good company. Hundreds of thousands of small businesses, musicians, venues, restaurants, and non-profits are publishing and promoting their in-person and virtual events with The Events Calendar. Our plugins have also been scaled to work on large networks for Fortune 100 companies, universities, and government institutions.
 
@@ -62,22 +61,22 @@ Our feature-rich plugin comes with everything you need to create and manage your
 ✔️ Hooks & filters galore
 ✔️ Caching support
 ✔️ Debug mode for developers
-✔️ [Library of extensions](https://m.tri.be/1a0r)
+✔️ [Library of extensions](https://evnt.is/1a0r)
 
 == 📃 Documentation ==
 
-All of our documentation can be found in [our Knowledgebase](https://m.tri.be/eu).
+All of our documentation can be found in [our Knowledgebase](https://evnt.is/eu).
 
 Additional helpful links:
 
-* [The Events Calendar New User Primer](https://m.tri.be/2l)
-* [The Themer’s Guide to The Events Calendar](https://m.tri.be/2m)
+* [The Events Calendar New User Primer](https://evnt.is/2l)
+* [The Themer’s Guide to The Events Calendar](https://evnt.is/2m)
 
 If you have any questions about this plugin, you can post a thread in the [WordPress.org forum](https://wordpress.org/support/plugin/the-events-calendar). Please search existing threads before starting a new one.
 
 == Add-Ons ==
 
-Take your calendar to the next level by pairing it with our plugins for ticketing, crowdsourcing, email marketing, and more. Learn more about all our products on [our website](https://m.tri.be/18wn).
+Take your calendar to the next level by pairing it with our plugins for ticketing, crowdsourcing, email marketing, and more. Learn more about all our products on [our website](https://evnt.is/18wn).
 
 Our Free Plugins:
 
@@ -86,28 +85,28 @@ Our Free Plugins:
 
 Our Premium Plugins and Services:
 
-⚡ [Events Calendar PRO](https://m.tri.be/18wi)
-↪️ [Event Aggregator](https://m.tri.be/197u) (service)
-🎟️ [Event Tickets Plus](https://m.tri.be/18wk)
-✉️ [Promoter](https://m.tri.be/1ajt)
-👥 [Community Events](https://m.tri.be/2g)
-🎟️ [Community Tickets](https://m.tri.be/18wl)
-✏️ [Filter Bar](https://m.tri.be/fa)
-🗓️ [Eventbrite Tickets](https://m.tri.be/2e)
-📡 [Virtual Events](http://m.tri.be/1aky)
+⚡ [Events Calendar PRO](https://evnt.is/18wi)
+↪️ [Event Aggregator](https://evnt.is/197u) (service)
+🎟️ [Event Tickets Plus](https://evnt.is/18wk)
+✉️ [Promoter](https://evnt.is/1ajt)
+👥 [Community Events](https://evnt.is/2g)
+🎟️ [Community Tickets](https://evnt.is/18wl)
+✏️ [Filter Bar](https://evnt.is/fa)
+🗓️ [Eventbrite Tickets](https://evnt.is/2e)
+📡 [Virtual Events](https://evnt.is/1aky)
 
 == Help ==
 
-If you aren’t familiar with The Events Calendar, check out our [New User Primer](https://m.tri.be/2p). It will have you creating events in no time.
+If you aren’t familiar with The Events Calendar, check out our [New User Primer](https://evnt.is/2p). It will have you creating events in no time.
 
 Ready to dig deeper? Check out these resources:
 
-* [Tutorials](https://m.tri.be/2u)
+* [Tutorials](https://evnt.is/2u)
 * [Release Schedule](https://theeventscalendar.com/release-schedule/)
 * [Known Issues](https://theeventscalendar.com/known-issues/)
-* [Documentation](https://m.tri.be/eu)
-* [Help Videos](https://m.tri.be/2t)
-* [Release Notes](https://m.tri.be/2v)
+* [Documentation](https://evnt.is/eu)
+* [Help Videos](https://evnt.is/2t)
+* [Release Notes](https://evnt.is/2v)
 
 We check in on the [The Events Calendar forum here on WordPress.org](https://wordpress.org/support/plugin/the-events-calendar/) about once a week to help users with basic troubleshooting and identifying bugs. If you’re looking for premium, personalized support, consider upgrading to Events Calendar Pro.
 
@@ -133,7 +132,7 @@ Installing the plugin is easy. Just follow one of the following methods:
 4. Follow the on-screen instructions and wait as the upload completes.
 5. When it's finished, activate the plugin via the prompt. A message will show confirming activation was successful. A link to access the calendar directly on the frontend will be presented here as well.
 
-That's it! Just configure your settings as you see fit, and you're on your way to creating events in style. Need help getting things started? Check out our [new user primer](https://m.tri.be/2l) for help with settings and features.
+That's it! Just configure your settings as you see fit, and you're on your way to creating events in style. Need help getting things started? Check out our [new user primer](https://evnt.is/2l) for help with settings and features.
 
 == Screenshots ==
 
@@ -159,9 +158,9 @@ Note that we aren’t going to say “tough luck” if you identify a plugin/the
 
 = I'm still stuck. Where do I go to file a bug or ask a question? =
 
-Users of the free The Events Calendar should post their questions in the plugin's [WordPress.org forum](https://wordpress.org/support/plugin/the-events-calendar/), which we visit about once a week. Please make sure to read [our sticky post](https://m.tri.be/19oc) providing an overview of the support we provide free users BEFORE posting. If you find you're not getting support in as timely a fashion as you wish, you might want to consider purchasing a license for Events Calendar Pro.
+Users of the free The Events Calendar should post their questions in the plugin's [WordPress.org forum](https://wordpress.org/support/plugin/the-events-calendar/), which we visit about once a week. Please make sure to read [our sticky post](https://evnt.is/19oc) providing an overview of the support we provide free users BEFORE posting. If you find you're not getting support in as timely a fashion as you wish, you might want to consider purchasing a license for Events Calendar Pro.
 
-If you're already an Events Calendar Pro user, you're entitled access to our actively-monitored [Premium Support](https://m.tri.be/1aju) on our website. We can provide a deeper level of support here and hit these forums on a daily basis during the work week. Generally, except in times of increased support loads, we reply to all tickets within 24-48 hours during the business week.
+If you're already an Events Calendar Pro user, you're entitled access to our actively-monitored [Premium Support](https://evnt.is/1aju) on our website. We can provide a deeper level of support here and hit these forums on a daily basis during the work week. Generally, except in times of increased support loads, we reply to all tickets within 24-48 hours during the business week.
 
 = What's the difference between The Events Calendar and Events Calendar Pro? =
 
@@ -173,20 +172,20 @@ In other words, Events Calendar Pro runs alongside The Events Calendar and enhan
 
 The following add-ons are available for The Events Calendar:
 
-* [Events Calendar Pro](https://m.tri.be/18wi), for adding premium calendar features like recurring events, advanced views, cool widgets, [shortcodes](http://m.tri.be/1ajw), additional fields, and more!
-* [Event Aggregator](https://m.tri.be/197u), a service that effortlessly fills your calendar with events from Meetup, Google Calendar, iCalendar, Eventbrite, CSV, and ICS.
-* [Virtual Events](http://m.tri.be/1aky), which optimizes your calendar for virtual events including Zoom integration, video and livestream embeds, SEO optimization for online events and more.
+* [Events Calendar Pro](https://evnt.is/18wi), for adding premium calendar features like recurring events, advanced views, cool widgets, [shortcodes](https://evnt.is/1ajw), additional fields, and more!
+* [Event Aggregator](https://evnt.is/197u), a service that effortlessly fills your calendar with events from Meetup, Google Calendar, iCalendar, Eventbrite, CSV, and ICS.
+* [Virtual Events](https://evnt.is/1aky), which optimizes your calendar for virtual events including Zoom integration, video and livestream embeds, SEO optimization for online events and more.
 * [Event Tickets](https://wordpress.org/plugins/event-tickets/) (free), which allows you to sell tickets and collect RSVPs to events. It can run alongside The Events Calendar or as a standalone plugin that adds ticket and RSVP functionality to WordPress posts and pages.
-* [Event Tickets Plus](https://m.tri.be/18wk), which allows you to sell tickets for your events using your favorite e-commerce platform.
-* [Promoter](https://m.tri.be/1ajt), automated email communication made just for The Events Calendar and Event Tickets. Stay in touch with your attendees every step of the way.
-* [Community Events](https://m.tri.be/2g), for allowing frontend event submission from your readers.
-* [Community Tickets](https://m.tri.be/18wl), which allows event organizers to sell tickets to the events they submit via Community Events.
-* [Filter Bar](https://m.tri.be/fa), for adding advanced frontend filtering capabilities to your events calendar.
-* [Eventbrite Tickets](https://m.tri.be/2e), for selling tickets to your event directly through Eventbrite.
+* [Event Tickets Plus](https://evnt.is/18wk), which allows you to sell tickets for your events using your favorite e-commerce platform.
+* [Promoter](https://evnt.is/1ajt), automated email communication made just for The Events Calendar and Event Tickets. Stay in touch with your attendees every step of the way.
+* [Community Events](https://evnt.is/2g), for allowing frontend event submission from your readers.
+* [Community Tickets](https://evnt.is/18wl), which allows event organizers to sell tickets to the events they submit via Community Events.
+* [Filter Bar](https://evnt.is/fa), for adding advanced frontend filtering capabilities to your events calendar.
+* [Eventbrite Tickets](https://evnt.is/2e), for selling tickets to your event directly through Eventbrite.
 
 = Can I import events to my calendar? =
 
-Yes! The Events Calendar has a built-in CSV import tool. If you want to step it up and automatically import events from Google Calendar, Meetup, Eventbrite and more, check out [Event Aggregator](https://m.tri.be/197u).
+Yes! The Events Calendar has a built-in CSV import tool. If you want to step it up and automatically import events from Google Calendar, Meetup, Eventbrite and more, check out [Event Aggregator](https://evnt.is/197u).
 
 = How do I sell tickets to events on my calendar? =
 
@@ -194,23 +193,23 @@ You'll want to use our [Event Tickets](https://wordpress.org/plugins/event-ticke
 
 = Can I have more than one calendar on my site? =
 
-Unfortunately, no. However, you can use event categories or tags to create calendar views that only display certain events. For example, you could create a direct link to a calendar view that only shows events categorized as "Fitness," [like this example from our demo site](http://m.tri.be/1ajv).
+Unfortunately, no. However, you can use event categories or tags to create calendar views that only display certain events. For example, you could create a direct link to a calendar view that only shows events categorized as "Fitness," [like this example from our demo site](https://evnt.is/1ajv).
 
-With Events Calendar Pro, you can use [shortcodes](http://m.tri.be/1ajw) to embed your calendar on other WordPress pages and posts, then filter that calendar by category.
+With Events Calendar Pro, you can use [shortcodes](https://evnt.is/1ajw) to embed your calendar on other WordPress pages and posts, then filter that calendar by category.
 
 = Can I allow people to submit events to my calendar? =
 
-This is available with the [Community Events](https://m.tri.be/2g) add-on to facilitate submissions. Install Community Events alongside The Events Calendar and a page will be added to your WordPress site with a form that visitors can use to submit events. As the calendar owner, you have full control over whether event submissions are published immediately or require moderation first.
+This is available with the [Community Events](https://evnt.is/2g) add-on to facilitate submissions. Install Community Events alongside The Events Calendar and a page will be added to your WordPress site with a form that visitors can use to submit events. As the calendar owner, you have full control over whether event submissions are published immediately or require moderation first.
 
-If you want to let users sell tickets for the events they submit, check out [Community Tickets](https://m.tri.be/18wl). It runs with The Events Calendar, Community Events, and Event Tickets and empowers visitors to create and sell tickets, splitting the profits with you.
+If you want to let users sell tickets for the events they submit, check out [Community Tickets](https://evnt.is/18wl). It runs with The Events Calendar, Community Events, and Event Tickets and empowers visitors to create and sell tickets, splitting the profits with you.
 
 = I have a feature idea. What's the best way to tell you about it? =
 
-We've got a [UserVoice page](https://tribe.uservoice.com/forums/195723-feature-ideas) where we're actively watching for feature ideas from the community. Vote up existing feature requests or add your own, and help us shape the future of the products business in a way that best meets the community's needs.
+We've got an [ideas page](https://app.loopedin.io/the-events-calendar-suite-roadmap#/ideas) where we're actively watching for feature ideas from the community. Vote up existing feature requests or add your own, and help us shape [our roadmap](https://app.loopedin.io/the-events-calendar-suite-roadmap#/roadmap).
 
 = I've still got questions. Where can I find answers? =
 
-Check out our extensive [knowledgebase](https://m.tri.be/18wm) for articles on using, tweaking, and troubleshooting our plugins.
+Check out our extensive [knowledgebase](https://evnt.is/18wm) for articles on using, tweaking, and troubleshooting our plugins.
 
 == Upgrade Notice ==
 
@@ -221,6 +220,347 @@ Previous versions of The Events Calendar are not cross-compatible with 5.X add-o
 Remember to always make a backup of your database and files before updating!
 
 == Changelog ==
+
+= [5.12.4] 2022-01-19 =
+
+* Tweak - Minor CSS tweaks to align with the new shortcode based blocks in ECP. [ECP-1016]
+* Tweak - Add hook to CSV importer to enable add-on plugins to support their fields during import. [VE-387]
+* Tweak - Included new filter `tec_system_information` allowing better control over the Troubleshooting Help page.
+* Tweak - Included a Views V2 Status on the Troubleshooting page system info section to help with clarity for support.
+* Tweak - Add notice for Themes using Full Site Editor incompatibility with Widgets. [TEC-4233]
+* Fix - Prevent Onboarding assets from loading on the admin when not needed.
+* Fix - Remove CSS attributes targeting `aria-labels` to prevent inconsistent styling for different languages. [TEC-4227]
+* Fix - Resolve sorting problems when using orderby with the Event repository when no other orderby values are specified. [TEC-4232]
+
+= [5.12.3] 2022-01-10 =
+
+* Version - The Events Calendar 5.12.3 is only compatible with Events Calendar PRO 5.11.2 and higher
+* Fix - Ensure the modifications made through the `tribe_events_views_v2_category_title` are respected. [TEC-4110]
+* Fix - Correct issue where mobile default view does not load correctly when homepage set to Events Main. [TEC-3826]
+* Tweak - Boost SEO for category archive pages by fixing the title tag. [TEC-4110]
+* Tweak - Add filter to allow users to choose if the taxonomy should show parent categories [TEC-4110]
+* Tweak - Move handling of mobile view to ECP. Add filter to allow overriding default view. [TEC-3826]
+* Language - 0 new strings added, 71 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.12.2] 2021-12-20 =
+
+* Fix - Remove trailing comma that can cause fatals on older versions of PHP. [FBAR-252]
+* Fix - Prevent infinite loops in the block editor when including the links block. [TEC-4190]
+* Fix - Initial steps to make The Events Calendar compatible with PHP 8.1
+
+= [5.12.1] 2021-12-14 =
+
+* Feature - Add TEC widget based blocks to the `Event Blocks` custom block category. [TEC-4151]
+* Feature - Add Event Status filter options when Filter Bar is active. [FBAR-92]
+* Fix - Add a valid rel value to the link tag for TEC REST API support in order to improve HTML 5 and WCAG 2.1 compliance. (props to @gabyrau for the fix!) [TEC-4129]
+* Fix - Ensure the date selected when creating a new event from the Event Manager is applied to the block editor. [ECP-954]
+* Fix - Properly observe the disabling of JSON-LD output on widget blocks in the block editor. [TEC-4077]
+* Fix - Prevent PHP warning in some cases when fetching the date from `tribe_get_display_end_date()`. (props to @huubl for the fix!) [TEC-4161]
+* Fix - Close a div in the new subscribe dropdown that was left open. Props to @whoisuncle for bringing this to our attention! [TEC-4166]
+* Tweak - Ensure the `Disable the Event Search Bar` setting doesn't get applied on the Event Manager page. [ECP-948]
+* Tweak - Ensure the `related events title` and `event titles` within the single event page for the block editor make use the customizer font settings. [TEC-4125]
+* Tweak - Update the description text for the "Merge Duplicates" action. Add filters for data sets usd for comparison. [TEC-3018]
+* Tweak - Adjust the Subscribe to Calendar dropdown styling to better accommodate themes with sidebars. [TEC-4166]
+* Tweak - Add the Event List and Mini-Calendar widgets to the Event Blocks category. [TEC-4151]
+* Tweak - Correct some incorrect template paths in docblocks. [TEC-4111]
+* Language - 4 new strings added, 159 updated, 0 fuzzied, and 1 obsoleted
+
+= [5.12.0] 2021-12-02 =
+
+* Feature - Add new subscribe options to the "Export Events" link at the bottom of calendar views and single Event view [TEC-4131]
+* Fix - Bypass caching of the event when dealing with the admin event list table. [TEC-4156]
+* Fix - Event List Widget will not print the H3 tag related to the title when that is empty. [BTRIA-1075]
+* Tweak - Allow bypassing of the Aggregator logging function by using the `tec_aggregator_records_should_log_error` filter. [BTRIA-1074]
+* Tweak - Removed the `tribe_events_force_filtered_ical_link` filter and the associated js function that recreates the subscribe link on v1 and Single Event views. [TEC-4131]
+* Language - 4 new strings added, 52 updated, 0 fuzzied, and 2 obsoleted
+
+= [5.11.0] 2021-11-17 =
+
+* Feature - Add an `Events List` block that is based on the `Events List` widget to the block editor which users can drag around to any position they want it to appear. [ECP-989]
+* Feature - Add event status options of scheduled, canceled, and postponed with the ability to add and display a reason for the latter two. [TEC-3465]
+* Feature - Add live preview to the TEC customizer screens. [TEC-4055]
+* Fix - When accessing comments there could be situations where an undefined array key was accessed, and in PHP 8 it is a promoted Warning error for undefined array access. [TEC-4093]
+* Fix - Resolved `Warning: reset(): Argument #1 ($array) must be passed by reference...` error that was displayed on the Events, Organizers and Venue REST endpoints in PHP v8. [TEC-4097]
+* Fix - Ensure that the proper spacing is applied for the venue address in list view. [TEC-4089]
+* Tweak - Update the google calendar export button to open in a new tab on the event single page for both the classic and block editors. [TEC-4084]
+* Tweak - Add supplied organizer url to JSON-LD for the event->organizer. Props @cmenon12 for the notification and code! [TEC-4095]
+* Tweak - Add a link to the Customizer in the admin menu and in Events->Settings->Display for folks running a FSE theme. [TEC-4126]
+* Language - 10 new strings added, 55 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.10.1] 2021-11-04 =
+
+* Feature - Added Black Friday promo to the General Settings panel. [TCMN-127]
+* Tweak - Update Black Friday banner. [TCMN-126]
+
+= [5.10.0] 2021-10-19 =
+
+* Tweak - Improve the look and feel of the single events page when using the block editor. These changes can be bypassed by defining the following constant to your wp-config.php file: `define( 'TRIBE_EVENTS_SINGLE_VIEW_V2_DISABLED', true );` [TEC-3979]
+* Language - 0 new strings added, 1 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.9.2] 2021-10-12 =
+
+* Fix - Ensure the day view on mobile displays the not found message when no events are present. [TEC-3944]
+* Fix - Ensure a map preview is displayed on the venue block in the admin area when using TEC's default Google API Key. [TEC-3042]
+* Fix - Add some missing text domains for string translation. [TEC-3908]
+* Fix - Correct block use checks around the Classic Editor plugin. [TEC-4099]
+* Tweak - Set the appropriate Content-Type for REST responses that return just HTML during view partial requests. [TEC-4087]
+* Language - 0 new strings added, 164 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.9.1] 2021-09-14 =
+
+* Feature - Updated swagger docs generated from swagger 2.0 to openapi 3.0.0
+* Fix - Initialize $local_time_zone to ensure we don't have notices displayed in the frontend. [TEC-3791]
+* Fix - Ensure the correct timezone label is being displayed on the Classic and Block editors when site-wide timezone is set. [TEC-3791]
+* Fix - Ensure that venue state or province are displayed next to the city in list view. [TEC-3332]
+* Fix - Ensure the category archive event breadcrumb links to the main events page. [TEC-3330]
+* Fix - Ensure that the page title does not encode (em)dashes before passing it on. [TEC-4049]
+* Fix - Ensure that the page title does not encode apostrophes before passing it on. [TEC-4058]
+* Fix - Ensure that filter_single_event_details_event_website_label() only filters the label for the website field. [ECP-921]
+* Tweak - Remove unused template file to avoid confusion.
+* Language - 0 new strings added, 13 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.9.0] 2021-08-24 =
+
+* Fix - Ensure that $eventDisplay is defined before we use it in the default template. [TEC-4060]
+* Feature - Alter Customizer to leverage the new exposed CSS custom properties. [TCMN-104]
+* Feature - Reduce the CSS load of The Events Calendar Customizer style overrides. [TEC-3011]
+* Feature - Allow easier style overrides by users and third-party themes/plugins. [TEC-3011]
+* Feature - Add new Font Sections to Customizer -> The Events Calendar -> Global Events. [TEC-3872]
+* Feature - Add new font family control to allow The Events Calendar styles to inherit theme fonts. [TEC-3895]
+* Feature - Add new font size controls for accessibility and to allow users to more closely match the font sizes of their theme. [TEC-3891]
+* Tweak - Support optionally passing start dates to the Event Edit page so targeted event creation can be triggered by The Events Calendar Pro's Event Manager.
+* Language - 16 new strings added, 429 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.8.2] 2021-08-17 =
+
+* Feature - Redesign In-App help and troubleshooting pages. [TEC-3741]
+* Fix - Try to ensure that when we do an event search the query post type remains `tribe_events`. [TEC-4012]
+* Fix - Ensure the year is displayed in the block editor event single page for events that are occurring in a different year from the current one. [TEC-3740]
+* Fix - Fix the issue of the Event Date Time block Timezone dropdown taking up a lot of space. [TEC-4029]
+* Fix - Ensure WPML translated event posts show up on translated venue and organizer pages. (props @NicoX13) [TEC-4036]
+* Fix - Fix issue of month names not being translatable. This was caused by a missing moment js localization dependency. [ECP-739]
+* Fix - Ensure we test the value of tribe_events_get_current_month_day() before using it. [ECP-912]
+* Fix - Add a new function to add "Event Blocks" category to the editor for WP >= 5.8. [TEC-4037]
+* Tweak - Change label of API Settings tab to "Integrations" and alter helper text. [TEC-4015]
+* Language - 2 new strings added, 251 updated, 1 fuzzied, and 18 obsoleted
+
+= [5.8.1] 2021-07-20 =
+
+* Fix - Ensure that the Block Editor saves cost data when submitted. [TEC-3987]
+* Fix - Ensure that when viewing a single event we load the correct template when tribe_context is "confused". [TEC-3975]
+* Tweak - Remove some CSS on the single events page that was causing a random border to appear on avada theme [TEC-3952]
+* Tweak - Add CSS class to the event tags label on the event details section on the single event page. [TEC-3951]
+* Tweak - Correct the messaging and link for the v1 deprecation notice. [TEC-3958]
+* Tweak - Include filter to allow modifications to the Grid query for By Day Views like Month and Week, `tribe_events_views_v2_by_day_view_day_repository`
+* Language - 5 new strings added, 26 updated, 2 fuzzied, and 5 obsoleted
+
+= [5.8.0] 2021-07-01 =
+
+* Version - The Events Calendar 5.8.0 is only compatible with Events Calendar PRO 5.8.0 and higher
+* Feature - Add new Events bar section to the Customizer for control of the Events Bar styles. [TEC-3672]
+* Fix - Correct instance where the date & time symbols ("@") are not changing color along with the text. [TEC-3883]
+* Tweak - Ensure that the Month view date and time default colors match up with the rest [TEC-3709]
+* Tweak - Ensure the Customizer Accent Color defaults to "royal blue" (#334aff) [TEC-3884]
+* Tweak - Stop doing all the work here and leverage the new tribe-common Theme_Compatibility. [TCMN-106]
+* Tweak - Add new hooks to the single event templates to allow more third-party control over content without custom templates. [TEC-3948]
+* Tweak - Added filters: `tribe_customizer_should_print_shortcode_customizer_styles`, `tribe_events_views_v2_bootstrap_html`, `tribe_default_events_template_classes`, `tribe_events_single_event_title_classes`, `tribe_events_single_event_title_html_before`, `tribe_events_single_event_title_html_after`, `tribe_events_single_event_title_html`
+* Tweak - Removed filters: `tribe_events_views_v2_compatibility_classes`, `tribe_events_views_v2_theme_compatibility_registered`
+* Tweak - Added actions: `tribe_default_events_template_after_header`, `tribe_default_events_template_before_footer`
+* Tweak - Changed views: `default-template`, `single-event`, `v2/default-template`
+* Language - 13 new strings added, 64 updated, 6 fuzzied, and 2 obsoleted
+
+= [5.7.1] 2021-06-23 =
+
+* Fix - Properly recalculate event cost when creating events via the Block Editor. [TEC-3141]
+* Fix - Resolve a compatibility issue with the new single view and the tickets block when using the `twentynineteen` theme. [TEC-3937]
+* Fix - Ensure that `view_data` is an array when fetching values from the request. [TEC-3946]
+* Fix - Ensure that the events block editor is disabled when "Activate Block Editor for Events" is unchecked. [TEC-3964]
+* Tweak - Make custom post types available from the REST API so they can be compatible with the Navigation block. [TEC-3907]
+* Tweak - Remove aria-labeled attribute from featured icons. [TEC-3396]
+* Language - 0 new strings added, 154 updated, 3 fuzzied, and 0 obsoleted
+
+= [5.7.0] 2021-05-27 =
+
+* Feature - Add new Month View section to the Customizer for v2 views. [TEC-3836]
+* Fix - Apply responsive breakpoints once the page has fully loaded with all JavaScript and Elements on the page [TEC-3797]
+* Fix - Resolve conflicts with Gravity Forms plugin that would prevent correct submission of forms data. [ECP-466]
+* Fix - Correctly handle start and end of day cutoff in Day View when the server timezone is not the same as the site (thanks @therealgilles). [TEC-3877]
+* Fix - Do not remove the `archive` body class from post tag and category pages when using Page as Event Template. [TEC-3846]
+* Fix - Correctly translate calendar view in WPML language switcher (thanks @dgwatkins). [TEC-3810]
+* Fix - Styles with the default theme `twenty twenty one` in `<buttons>` around the calendar. [TEC-3887]
+* Fix - Single event iCalendar export will correctly export only that event information. [TEC-3886]
+* Fix - Use the correct date and time in the Day View time separator when Timezone Mode is set to "Manual time zones for each event". [TEC-3877]
+* Fix - Correctly integrate with the "Hello Elementor" theme to avoid issues with The Events Calendar and The Events Calendar PRO Views. [ECP-648]
+* Fix - Correct typo in style output from Customizer.  Thanks @apmatthews for catching and correcting this!
+* Fix - Avoid PHP warnings when linked post types are filtered out (thanks @baden03). [TEC#3533]
+* Tweak - Make sure events from latest past events display the featured image correctly. [TEC-3655]
+* Tweak - Reduced the usage of the word "onwards" on list-style view date range headings where simpler headings are better suited. [TEC-3831]
+* Tweak - Move messages below the calendar grid in the mobile version of Month View. [TEC-3793]
+* Tweak - Display a message to let visitors know the selected Month View day has no events in mobile. [TEC-3812]
+* Tweak - Add compatibility for the Full Site Editor navigation block. [TEC-3850]
+* Tweak - Filter the type of files allowed to upload into the EA Client. [TEC-3882]
+* Tweak - Updating lodash to 4.17.21. [TEC-3885]
+* Tweak - Prevent to list changes of hash on URL changes like `#content` [TEC-3890]
+* Tweak - Update Google Calendar link to use the timezone based on the Timezone Settings from the Calendar [TEC-3143]
+* Tweak - Add the `tribe_views_v2_after_setup_loop` filter to modify the loop context set up in the View (v2). [ECP-811]
+* Tweak - Add the `tribe_events_views_v2_by_day_view_grid_days` to allow pre-filling Month and Week Views (v2) Events. [ECP-529]
+* Tweak - Add the `tribe_events_views_v2_by_day_view_day_results` to allow fine-grained control over Month and Week Views (v2) Event data. [ECP-529]
+* Tweak - Added filters: `tribe_customizer_should_print_shortcode_customizer_styles`, `tribe_customizer_should_print_shortcode_customizer_styles`, `tribe_events_views_v2_view_ical_repository_args`, `tribe_events_views_v2_view_{$slug}_asset_origin_object`, `tribe_events_views_v2_by_day_view_grid_days`, `tribe_events_views_v2_by_day_view_day_results`, `tribe_events_views_v2_month_mobile_messages`, `tribe_events_views_v2_view_cached_html`, `tribe_events_views_v2_view_{$this->slug}_cached_html`, `tribe_ical_template_event_ids`, `tribe_get_view_permalink`, `tribe_get_{$slug}_view_permalink`
+* Tweak - Added actions: `tribe_views_v2_after_setup_loop`
+* Tweak - Changed views: `blocks/classic-event-details`, `blocks/parts/details`, `modules/meta/details`, `v2/components/breakpoints`, `v2/components/messages`, `v2/day/time-separator`, `v2/month`, `v2/month/calendar-body/day`, `v2/month/mobile-events`, `v2/month/mobile-events/mobile-day`, `v2/month/mobile-events/mobile-day/day-marker`
+* Language - 27 new strings added, 133 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.6.0] 2021-04-29 =
+
+* Version - The Events Calendar 5.6.0 is only compatible with Events Calendar PRO 5.6.0 and higher
+* Fix - Correct implementation of filters in Views/V2/Hooks.php to avoid fatals. [BTRIA-791]
+* Fix - Ensure when saving on Blocks editor Organizer and Venue IDs don't throw notices for failed deletion. [TEC-3844]
+* Fix - Resolve compatibility problem between The Events Calendar and other plugins using Select2. [TEC-3748]
+* Fix - Enqueue full styles for v2 event single only when using full styles. [TEC-3848]
+* Fix - Modify Select2 to clone the `jQuery.fn.select2` into `jQuery.fn.select2TEC` to avoid conflicting with third-party usage that didn't include the full version of Select2 [TEC-3748]
+* Fix - Add filtering hooks to Cache Listener to allow modifications of which options trigger an occurrence. [ECP-826] [ECP-824]
+* Fix - Improve escaping for messages when no results were found using search (Thanks Steve Pollak)
+* Tweak - Added the ability to filter cached view HTML. Hooks added were: `tribe_events_views_v2_view_cached_html` and `tribe_events_views_v2_view_{$view_slug}_cached_html`. [ECP-770]
+* Tweak - Added filters: `tribe_customizer_should_print_shortcode_customizer_styles`, `tribe_events_views_v2_view_ical_repository_args`, `tribe_events_views_v2_view_cached_html`, `tribe_events_views_v2_view_{$this->slug}_cached_html`, `tribe_ical_template_event_ids`
+* Tweak - Changed views: `blocks/classic-event-details`, `blocks/parts/details`, `modules/meta/details`, `v2/components/messages`, `v2/month/mobile-events/mobile-day`, `v2/month/mobile-events/mobile-day/day-marker`
+* Language - 3 new strings added, 176 updated, 0 fuzzied, and 6 obsoleted
+
+= [5.5.0.1] 2021-04-05  =
+
+* Fix - Reduce overhead of widget setup on every page load by setting up the widgets only as needed. [TEC-3833]
+
+= [5.5.0] 2021-03-29 =
+
+* Feature - Add `has_event` and `has_no_events` to the Venue and Organizer ORM so we can filter requests for both by whether they have events or not.
+* Fix - Invert quotes to protect against issue with MySQL in `ANSI_QUOTES` mode. [TEC-3785]
+* Fix - correct display order of sticky, featured, and "normal" events on Month View. Adds a class for targeting sticky posts for styling. [TEC-3770]
+* Fix - Ensure the Events List widget also shows the Time Zone when displaying it is set in the admin. [TEC-3747]
+* Fix - Saving on Blocks editor without Organizer is working as expected again [TEC-3788]
+* Fix - Fusion Core/Avada Widget implementation of The Events Calendar will no longer throw warnings on the frontend display. [ECP-538]
+* Fix - Usage of `tribe_get_events()` for non-existent posts will no longer throw warnings on the Blocks Editor, impacted Community Events Shortcode usage [BTPLAN-121]
+* Tweak - Added rel=noreferrer to Google Map links. [TEC-3795]
+* Tweak - Include actions before and after the creation of a view for REST API requests. Hooks added were: `tribe_events_views_v2_before_make_view_for_rest` and `tribe_events_views_v2_after_make_view_for_rest`
+* Tweak - Allow specific filtering to add other views into the HTML caching for performance using hook `tribe_events_views_v2_cached_views`.
+* Tweak - Include Legacy views deprecation notice [TEC-4809]
+* Language - 8 new strings added, 181 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.4.0.2] 2021-03-10 =
+
+* Fix - Saving organizers properly work on WordPress 5.7 with Blocks Editor [TEC-3788]
+
+= [5.4.0.1] 2021-03-04 =
+
+* Fix - Prevent fatals happening with PHP 5.6 due to duplicated class for templates [BTRIA-767]
+
+= [5.4.0] 2021-02-24 =
+
+* Version - The Events Calendar 5.4.0 is only compatible with Events Calendar PRO 5.3.0 and higher
+* Fix - Compatibility with WordPress 5.7 and jQuery 3.5.X
+* Fix - Updated views JavaScript manager is now deferred to the end of the request, to make sure all dependencies are loaded.
+* Fix - Navigation for the Views will no longer use current browser URL as previous url, preventing problems on shortcodes.
+* Fix - Latest Past view moved to not publicly visible, which was the intended behavior.
+* Tweak - Add compatibility container to widgets - to allow for a non-body target for compatibility classes.
+* Tweak - Include the `tribe_events_views_v2_view_page_reset_ignored_params` filter to prevent certain params from interfering with pagination resetting. [FBAR-222]
+* Tweak - Use filterable attributes for the view more link and text. Add customizer styling for the link. [ECP-568]
+* Tweak - Removed `tribe_events_views_v2_widget_admin_form_{$field_type}_input` from the List Widget admin form in favor of using `Tribe__Template::do_entry_point()` [ECP-486]
+* Tweak - Moved administration templates for List Widget components to Common. [ECP-486]
+* Language - 1 new strings added, 10 updated, 1 fuzzied, and 0 obsoleted
+
+= [5.3.2.1] 2021-02-02 =
+
+* Fix - Prevent Event Aggregator ASYNC requests from failing to import after 5 Events, Venues, RSVP, Tickets and/or Organizers. [TEC-3769]
+* Fix - Update compatibility with PHP 7.4 for ForceUTF8 vendor module. [TEC-3769]
+
+= [5.3.2] 2021-01-28 =
+
+* Feature - Add customizer support for custom location pins on single events when Views V2 is active. [TEC-3276]
+* Fix - Use dynamic label for fast-forward link on the month view. [TEC-3452]
+* Fix - Correctly filter `locale` in the `Tribe\Events\I18n` class to avoid errors.
+* Fix - Prevent heartbeat warning when null data param is passed on Cron and AJAX requests [BTRIA-687]
+* Fix - Increase the minimum width of the datetime dropdown when editing an event with the block editor. [TEC-3126]
+* Fix - Ordering with an Array when using `Tribe__Repository` now properly ignores the global order passed as the default. [ECP-598]
+* Fix - Resolve PHP 8.0 incompatibility with `__wakeup` and `__clone` visibility on Extension class.
+* Fix - Prevent `tribe_sort_by_priority` from throwing warnings on `uasort` usage for PHP 8+ compatibility.
+* Fix - Update Di52 to include PHP 8+ compatibility.
+* Fix - Modify Freemius `class-fs-logger.php` file to prevent PHP 8+ warnings.
+* Fix - Correctly handle *nix and Windows server paths that contain falsy values (e.g. `0` or spaces) when building template paths. [TEC-3712]
+* Tweak - Increase top padding above date stamp in list view. [TEC-3656]
+* Tweak - Reduce bottom margin of the event title in list/day views. [TEC-3656]
+* Tweak - Round featured event line corners. [TEC-3656]
+* Tweak - Add new filter `tribe_aggregator_build_url_data` to customize the URL delivered to EA server.
+* Tweak - Update V2 Customizer admin styles of TEC sections. [TEC-3696]
+* Tweak - Added filters: `tribe_aggregator_build_url_data`
+* Language - 4 new strings added, 187 updated, 3 fuzzied, and 5 obsoleted
+
+= [5.3.1] 2020-12-15 =
+
+* Feature - Event Aggregator - Filter Events by Aggregator/Import Record. [EA-130]
+* Feature - V2 Customizer - Add background color css overrides. [TEC-3651]
+* Feature - V2 Customizer - Add Event Title color css overrides. [TEC-3334]
+* Feature - V2 Customizer - Add Event Date & Time color css overrides. [TEC-3675]
+* Feature - V2 Customizer - Add controls for Background Color to general and single-event sections. [TEC-3683]
+* Feature - V2 Customizer - Add controls for Event Title Color to general section. [TEC-3684]
+* Feature - V2 Customizer - Add controls for Event Date & Time Color to general section. [TEC-3685]
+* Tweak - Add opaque backgrounds for selected bordered elements. [TEC-3673]
+* Tweak - Change Title/Date & Time font color defaults on the Event Single page. [TEC-3682]
+* Fix - Fix an issue in csv venue imports where the address would not import.  [TEC-3637]
+* Fix - Compatibility for some theme menus that no longer displayed when an event is password protected. [TEC-2968]
+* Language - 8 new strings added, 63 updated, 1 fuzzied, and 0 obsoleted
+
+= [5.3.0] 2020-12-02 =
+
+* Feature - Event Aggregator - Search Box for Scheduled Imports. [TEC-3570]
+* Feature - Event Aggregator Batch Pushing for Cron Imports [EA-297]
+* Tweak - Add the filter `tribe_aggregator_import_queue_cleaner_time_to_live` to customize the time in seconds to consider an EA record alive. [EA-297]
+* Tweak - Add the filter `tribe_aggregator_import_queue_cleaner_stall_limit` to customize the number of seconds for an EA record to be considered stalled. [EA-297]
+* Tweak - Add the filter `tribe_events_aggregator_build_url` [EA-297]
+* Tweak - Adjust Event Aggregator Client Progress Bar using the Heart Beat API for polling state instead [TEC-3534]
+* Tweak - Event Aggregator - Make default limit by number of events instead of by date range. [TEC-3635]
+* Tweak - Event Aggregator/Eventbrite Tickets - Remove verbiage regarding 50 event limit on Eventbrite imports.
+* Tweak - Add the `tribe_get_organizer_object` function. [TEC-3645]
+* Tweak - Change the return value of the `tribe_get_event( $event_id )->organizers` from a collection of Organizer names to a collection of Organizer post objects. [TEC-3645s]
+* Tweak - Add the `tribe_get_event( $event_id )->organizer_names` method to return a collection of the Event Organizer names. [TEC-3645]
+* Tweak - Ensure widgets don't get Filter Bar classes on their containers. [FBAR-202]
+* Tweak - Switch the List View previous/next URL methods to use the slug rather than a hard-coded "list" so the class is more easily extendable. [TEC-3648]
+* Tweak - Add an option to trash events after 1 month (thanks @StefanSchroeder).
+* Tweak - Add the `tribe_events_views_v2_datepicker_no_conflict` filter (default `false`) to allow loading the Views v2 datepicker in no-conflict mode, when set to `true`, and avoid issues with other plugins that are loading the built-in WordPress `jquery-ui-datepicker` script. [TEC-3581]
+* Tweak - Improve WPML integration and URL localization of Views v2. [TEC-3608]
+* Fix - Event Aggregator - Fix Eventbrite status filter to not return 'do_not_override' and handle Eventbrite's additional statuses. [TEC-3569]
+* Fix - Ensure ECP shortcode today button handles categories gracefully. [ECP-492]
+* Fix - Prevent creation of duplicate venues for default address while adding or editing events. [ECP-482]
+* Fix - Make sure Month View "View More" link to Day View will preserve the current search criteria. [TEC-3230]
+* Fix - Ensure Event Aggregator Cron schedules always have array format and avoid errors on fresh WordPress installations (thanks @mmcachran).
+* Fix - Regular expression to sanitize name of columns on the EA client make sure all invalid characters are removed.
+* Fix - Use more robust code in the `tribe_is_past_event` template tag to avoid Warnings.
+* Fix - Review and improve the Rewrite component to correctly parse and handle localized URLs and accented characters. [TEC-3608]
+* Language - 25 new strings added, 775 updated, 1 fuzzied, and 6 obsoleted
+
+= [5.2.1] 2020-10-22 =
+
+* Tweak - Change Views v2 AJAX request method from GET to POST to avoid issues with too long URLs. [TEC-3283]
+* Tweak - Add the `tribe_events_views_v2_endpoint_method` filter to allow controlling the HTTP method Views should use to fetch their content from the back-end endpoint. [TEC-3283]
+* Tweak - Add the `tribe_events_views_v2_endpoint_url` filter to allow controlling the URL Views should use to fetch their content from the back-end endpoint. [TEC-3283]
+* Fix - Prevent Event Aggregator 15 minute Cron Schedule from being created when not required (props @jetxpert) [EA-317]
+* Fix - Add filter to toggle off the event templates hijack. [TEC-3521]
+* Fix - Correct url for current month iCal export link. [TEC-3575]
+* Fix - Avoid loading the same CSS file twice on the back-end. [TEC-3623]
+* Fix - Ensure ECP shortcode prev/next urls handle categories gracefully. [ECP-492]
+* Language - 3 new strings added, 200 updated, 0 fuzzied, and 0 obsoleted
+
+= [5.2.0] 2020-09-28 =
+
+* Fix - Fix the order of the List View when the PRO is set to show only the first instance of a Recurring Event. [ECP-467]
+* Fix - Fix a PHP error that would arise when during the translation, by the WPML plugin, of some strings. [TEC-3454, TEC-3578]
+* Fix - Fix a compatibility issue with the WPML plugin that would prevent some options from being translated correctly. [TEC-3454]
+* Fix - Generation and usage of translated strings that would cause issues with the WPML plugin. [TEC-3454]
+* Tweak - Use the `border-small` class for the today button, add new border button styles to customizer. [FBAR-143]
+* Tweak - Add missing CSS classes to the Event Categories label on the single event page. [TEC-3478]
+* Tweak - Adjust accordion trigger selector to allow multiple space-separated `data-js` attributes. [FBAR-125]
+* Tweak - Adjust spacing on header to prevent screen overflow. [FBAR-132]
+* Tweak - Adjust aria attributes and add loader text to make ajax loading more accessible. [FBAR-147]
+* Tweak - Add the `tribe_events_latest_past_view_display_template` filter to allow controlling the display of templates  in the context of the Latest Past Events View. [FBAR-148]
+* Tweak - Allow passing of additional data to the AJAX request by use of container data. [FBAR-162]
+* Language - 2 new strings added, 20 updated, 0 fuzzied, and 0 obsoleted
 
 = [5.1.6] 2020-08-24 =
 
@@ -419,19 +759,19 @@ Remember to always make a backup of your database and files before updating!
 
 * Feature - Created new Month, Day, and List views with all new HTML, CSS, and JavaScript.
 * Feature - Add upgrade path for new Month, Day, and List views making it opt-in for any existing users.
-* Feature - New templating engine to power the new Views. [See More](https://m.tri.be/1aid)
+* Feature - New templating engine to power the new Views. [See More](https://evnt.is/1aid)
 * Feature - Views initialization and instance includes more filters and actions to allow improved extensibility and customization. (See all filters below)
 * Feature - Views manager and bootstrapping classes were created to allow more control over where and when views will be initialized. (See filters related to those below)
 * Feature - Reduced maintenance burden of customizations by leveraging atomic templates for the new views. (See list of files now available below)
-* Feature - CSS uses a Block Element Modifier (BEM) methodology to improve reusability of components. [See More](https://m.tri.be/1aib)
+* Feature - CSS uses a Block Element Modifier (BEM) methodology to improve reusability of components. [See More](https://evnt.is/1aib)
 * Feature - New Views share one JavaScript Manager, which contains multiple jQuery actions and customization points.
 * Feature - View navigation relies on the WP Rest API, improving reliability and caching opportunities.
 * Feature - Event permalinks are now more consistent across navigation using `WP_Rewrite` to map params to their matching URL, which improves SEO.
 * Feature - Event data filtering used across all new views: `tribe_get_event_before`, `tribe_get_event`, `tribe_get_event_after`, `tribe_events_organizers_fetch_callback`, `tribe_events_venues_fetch_callback`
 * Feature - Venue data filtering used across all new views: `tribe_get_venue_object_before`, `tribe_get_venue_object`
 * Tweak - Custom Before and After HTML on the Events > Settings page will now prefer event view styling over the Theme's CSS.
-* Tweak - Lowered the reliance on the global `$wp_query` to create more consistent output and faster maintenance. [See More](https://m.tri.be/1aic)
-* Tweak - View overrides for the new views will look within a new folder in your theme to avoid conflicting with old The Events Calendar theme customizations [See More](https://m.tri.be/1aia)
+* Tweak - Lowered the reliance on the global `$wp_query` to create more consistent output and faster maintenance. [See More](https://evnt.is/1aic)
+* Tweak - View overrides for the new views will look within a new folder in your theme to avoid conflicting with old The Events Calendar theme customizations [See More](https://evnt.is/1aia)
 * Tweak - Switch to a compact date while on day and month view in mobile [136789]
 * Tweak - Remove `tribe_events_getLink` in favor of `tribe_events_get_link` which was a deprecated filter since version 4.3
 * Hooks - View template include and render filters and actions: `tribe_template_before_include`, `tribe_template_before_include:{$template_path}`, `tribe_template_after_include`, `tribe_template_after_include:{$template_path}`, `tribe_template_html`, `tribe_template_html:{$template_path}`
@@ -515,7 +855,7 @@ Remember to always make a backup of your database and files before updating!
 
 = [4.9.6] 2019-08-07 =
 
-* Tweak - Update Event Aggregator to include compatibility with new Meetup API requirements - [See more](https://m.tri.be/1afb) [125635]
+* Tweak - Update Event Aggregator to include compatibility with new Meetup API requirements - [See more](https://evnt.is/1afb) [125635]
 * Language - 5 new strings added, 120 updated, 5 fuzzied, and 10 obsoleted
 
 = [4.9.5] 2019-07-25 =

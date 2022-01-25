@@ -1,5 +1,8 @@
 <?php
 
+use Tribe__Date_Utils as Dates;
+use Tribe__Utils__Array as Arr;
+
 /**
  *  Class that implements the export to iCal functionality
  *  both for list and single events
@@ -85,7 +88,14 @@ class Tribe__Events__iCal {
 	public function month_view_ical_link( $event_date = null ) {
 		$tec = Tribe__Events__Main::instance();
 
-		return add_query_arg( [ 'ical' => 1 ], $tec->getLink( 'month', $event_date ) );
+		// Default to current month if not set.
+		if ( empty( $event_date ) ) {
+			$event_date = Dates::build_date_object()->format( Dates::DBYEARMONTHTIMEFORMAT );
+		}
+
+		$url = $tec->getLink( 'month', $event_date );
+
+		return add_query_arg( [ 'ical' => 1 ], $url );
 	}
 
 	/**
@@ -119,8 +129,8 @@ class Tribe__Events__iCal {
 			return;
 		}
 		$calendar_links = '<div class="tribe-events-cal-links">';
-		$calendar_links .= '<a class="tribe-events-gcal tribe-events-button" href="' . Tribe__Events__Main::instance()->esc_gcal_url( tribe_get_gcal_link() ) . '" title="' . esc_attr__( 'Add to Google Calendar', 'the-events-calendar' ) . '">+ ' . esc_html__( 'Google Calendar', 'the-events-calendar' ) . '</a>';
-		$calendar_links .= '<a class="tribe-events-ical tribe-events-button" href="' . esc_url( tribe_get_single_ical_link() ) . '" title="' . esc_attr__( 'Download .ics file', 'the-events-calendar' ) . '" >+ ' . esc_html__( 'iCal Export', 'the-events-calendar' ) . '</a>';
+		$calendar_links .= '<a class="tribe-events-gcal tribe-events-button" href="' . Tribe__Events__Main::instance()->esc_gcal_url( tribe_get_gcal_link() ) . '" target="_blank" rel="noopener noreferrer" title="' . esc_attr__( 'Add to Google Calendar', 'the-events-calendar' ) . '">+ ' . esc_html__( 'Google Calendar', 'the-events-calendar' ) . '</a>';
+		$calendar_links .= '<a class="tribe-events-ical tribe-events-button" href="' . esc_url( tribe_get_single_ical_link() ) . '" title="' . esc_attr__( 'Download .ics file', 'the-events-calendar' ) . '" >+ ' . esc_html__( 'Add to iCalendar', 'the-events-calendar' ) . '</a>';
 		$calendar_links .= '</div><!-- .tribe-events-cal-links -->';
 
 		/**
@@ -201,12 +211,26 @@ class Tribe__Events__iCal {
 				return;
 			}
 
-			if ( isset( $_GET['event_ids'] ) ) {
-				if ( empty( $_GET['event_ids'] ) ) {
+			$event_ids = tribe_get_request_var( 'event_ids', false );
+
+			/**
+			 * Allows filtering the event IDs after the `Tribe__Events__ICal` class
+			 * tried to fetch them from the current request.
+			 *
+			 * @since 4.6.0
+			 *
+			 * @param array<int>|false Either a list of requested event post IDs or `false`
+			 *                         if the current request does not specify the event post
+			 *                         IDs to fetch.
+			 */
+			$event_ids = apply_filters( 'tribe_ical_template_event_ids', $event_ids );
+
+			if ( false !== $event_ids ) {
+				if ( empty( $event_ids ) ) {
 					die();
 				}
-				$event_ids = explode( ',', $_GET['event_ids'] );
-				$events = tribe_get_events( [ 'post__in' => $event_ids ] );
+				$event_ids = Arr::list_to_array( $event_ids );
+				$events = array_map( 'tribe_get_event', $event_ids );
 				$this->generate_ical_feed( $events );
 			} elseif ( is_singular( Tribe__Events__Main::POSTTYPE ) ) {
 				$this->generate_ical_feed( $wp_query->post );
@@ -496,7 +520,7 @@ class Tribe__Events__iCal {
 					$start = new DateTime( $transition['time'], $timezone );
 					$item[] = 'DTSTART:' . $start->format( "Ymd\THis" );
 				} catch ( Exception $e ) {
-					// TODO: report this exception
+					// @todo [BTRIA-610]: report this exception
 				}
 				$item[] = 'END:' . $type;
 				$last_transition = $transition;
@@ -578,7 +602,7 @@ class Tribe__Events__iCal {
 	 * Get the Body With all the events of the .ics file
 	 *
 	 * @since 4.9.4
-	 * @since TBD - Utilize get_ical_output_for_an_event() to get the iCal output.
+	 * @since5.1.6 - Utilize get_ical_output_for_an_event() to get the iCal output.
 	 *
 	 * @param array $posts
 	 *
@@ -601,7 +625,7 @@ class Tribe__Events__iCal {
 	/**
 	 * Get the iCal Output for the provided event object.
 	 *
-	 * @since TBD
+	 * @since5.1.6
 	 *
 	 * @param \WP_Post             $event_post The event post object.
 	 * @param \Tribe__Events__Main $tec        An instance of the main TEC Class.
@@ -834,7 +858,7 @@ class Tribe__Events__iCal {
 	 *
 	 * @return int
 	 */
-	protected function feed_posts_per_page() {
+	public function feed_posts_per_page() {
 		/**
 		 * Filters the number of upcoming events the iCal feed should export.
 		 *
